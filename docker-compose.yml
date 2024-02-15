@@ -5,6 +5,4 @@ services:
        stdin_open:  true
        tty: true
        hostname: apache
-       command: /bin/bash 
-       ports:
-         - "8080:80"
+       command: /bin/bash

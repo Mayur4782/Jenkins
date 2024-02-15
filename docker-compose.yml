@@ -6,3 +6,5 @@ services:
        tty: true
        hostname: apache
        command: /bin/bash 
+       ports:
+         - "8080:80"

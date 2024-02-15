@@ -1,5 +1,5 @@
 version: '3.3'
-Services:
+Service:
      Web:
        Image:  centos:6
        Stdin_open:  true

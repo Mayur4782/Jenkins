@@ -1,8 +1,8 @@
 version: '3.3'
-Service:
-     Web:
-       Image:  centos:6
-       Stdin_open:  true
+services:
+     web:
+       image:  centos:6
+       stdin_open:  true
        tty: true
        hostname: apache
        command: /bin/bash 
